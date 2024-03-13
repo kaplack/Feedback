@@ -39,6 +39,10 @@ export const FeedbackProvider = ({children}) => {
                 return el
             }
         }))
+        setFeedbackEdit({
+            item:{},
+            edit: false
+        })
     }
 
     const editFeedback = (item)=>{
